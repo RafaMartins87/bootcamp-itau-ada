@@ -1,4 +1,4 @@
-# using temurin image for performance purposes
+# using temurin image for performance purp
 FROM eclipse-temurin:11-jre
 RUN mkdir /opt/app
 COPY target/*.jar /opt/app/app.jar
